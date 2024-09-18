@@ -1,0 +1,5 @@
+.ctech-btn-blue {
+  background-color: var(--ctech-color-btn-primary);
+  color: var(--ctech-color-btn-inverse);
+  border: none;
+}

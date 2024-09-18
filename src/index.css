@@ -83,10 +83,6 @@ header {
   padding: 0 20px;
 }
 
-.ctech-header-client {
-  background-color: var(--ctech-color-bg-secondary);
-  color: var(--ctech-color-font-primary);
-}
 .ctech-header-admin {
   background-color: var(--ctech-color-bg-quaternary);
   color: var(--ctech-color-font-tertiary);
@@ -180,16 +176,7 @@ nav a {
   justify-content: center;
   align-items: center;
 }
-.ctech-btn-blue {
-  background-color: var(--ctech-color-btn-primary);
-  color: var(--ctech-color-btn-inverse);
-  border: none;
-}
-.ctech-btn-white {
-  background-color: var(--ctech-color-btn-inverse);
-  color: var(--ctech-color-btn-primary);
-  border-radius: 1px solid var(--ctech-color-btn-primary);
-}
+
 .ctech-btn-next-page {
   padding: 10px;
   border-radius: 4px;

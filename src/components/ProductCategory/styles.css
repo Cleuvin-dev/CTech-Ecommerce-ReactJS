@@ -1,0 +1,14 @@
+.ctech-category {
+  padding: 0 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: var(--ctech-color-bg-tertiary);
+  border-radius: 4px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ctech-color-card-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

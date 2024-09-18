@@ -1,0 +1,5 @@
+.ctech-btn-white {
+  background-color: var(--ctech-color-btn-inverse);
+  color: var(--ctech-color-btn-primary);
+  border-radius: 1px solid var(--ctech-color-btn-primary);
+}
