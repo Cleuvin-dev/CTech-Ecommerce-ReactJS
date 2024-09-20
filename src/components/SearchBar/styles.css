@@ -1,0 +1,84 @@
+.ctech-search-bar {
+  height: 40px;
+  display: flex;
+  color: var(--ctech-color-font-primary);
+}
+.ctech-search-bar button,
+.ctech-search-bar input {
+  border: var(--ctech-color-card-border #d9d9d9);
+}
+.ctech-search-bar input {
+  width: calc(
+    100% - 80px
+  ); /* calculo para ajuste da Search Bar de seu espaço de 100% - 80 pixels para ajuste dos incones */
+  border-left: none;
+  border-right: none;
+  padding: 0 10px;
+  font-size: 16px;
+  color: var(--ctech-color-font-primary);
+}
+.ctech-search-bar input:focus {
+  outline: none; /* Comando para remoção das bordas da barra de Search ao ser selecionada */
+}
+.ctech-search-bar input::placeholder {
+  color: var(--ctech-color-font-placeholder);
+}
+.ctech-search-bar button {
+  width: 40px;
+  color: var(--ctech-color-font-primary);
+}
+/*Remoção da borda direta do botão de Search da barra*/
+.ctech-search-bar button[type="submit"] {
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+}
+/*Remoção da borda esquerda do botão de cancelar X, da barra*/
+.ctech-search-bar button[type="reset"] {
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+}
+
+/* ============================================================================ */
+/*                            Form Styles                                       */
+.ctech-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.ctech-form h2 {
+  font-size: 16px;
+  color: var(--ctech-color-font-primary);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+.ctech-form-controls-container {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  margin: 20px 0;
+}
+.ctech-form-control {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 20px;
+  color: var(--ctech-color-font-primary);
+  border-radius: 4px;
+  border: 1px solid var(--ctech-color-bg-primary);
+}
+.ctech-form-control:focus {
+  outline: none; /* Comando para remoção das bordas da barra de Search ao ser selecionada */
+}
+.ctech-form-control::placeholder {
+  color: var(--ctech-color-font-placeholder);
+}
+.ctech-input-error {
+  border: 1px solid var(--ctech-color-error);
+}
+.ctech-form-error {
+  color: var(--ctech-color-error);
+  font-size: 12px;
+  padding-left: 4px;
+}
