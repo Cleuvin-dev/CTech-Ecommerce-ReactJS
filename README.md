@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+<h2>React + TypeScript + Vite</h2>
 
-<h1>Irei editar em breve...</h1>
+<p>Irei editar em breve...</p>
